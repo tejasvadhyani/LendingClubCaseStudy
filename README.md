@@ -31,11 +31,11 @@ We received a `loan.csv` dataset. It consist of `111` columns defining various a
     - Bank is considering those customers more who has large employee length. 
     - With time loan applications are increasing. This could be due to various factors like economic conditions, bank policies, or changes in lending practices.
     - Most of the customers has credit history between 1990 to 2010.
-- From Univariate analysis on unordered categorical variable, we concluded insights as follow:
-    - Most loans request falls between $5000-15000. High loan requests are less common. High loan amounts indicate greater risk.
+- From Univariate analysis of quantitative variables, we concluded insights as follows:
+    - Most loan requests fall between $5000-15000. High loan requests are less common. High loan amounts indicate greater risk.
     - Funded amount follows a similar distribution as loan_amnt. This indicates efficient loan approval process as bank tends to fund amount close to loan amount requested.
     - Most of the EMIs lies between $200-500. High EMIs might correlate with large loans and can impact borrower ability to repay.
-    - Most customers contains income less than 200000 but there are outliers in data.
+    - Most customers contain income less than 200000 but there are outliers in data.
     - Debt to Income ratio(DTI) value is less than 30 which indicates that bank grant loan to customers having low DTI as high DTI reflects high risk.
     - Most customer has 1-15 opened credit accounts. More no. of credits represents more risk associated with customer.
     - Almost all borrowers have zero public records, indicating good financial behavior. A small subset with 1 or more public records could be flagged as potentially higher risk.
