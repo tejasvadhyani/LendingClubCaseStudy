@@ -51,6 +51,7 @@ We received a `loan.csv` dataset. It consist of `111` columns defining various a
     - Small business loans have high tendency to get charged off, whereas Wedding loans have lowest tendency to get charged off. Thus `purpose` could be a DRIVING VARIABLE.
     - More `dti`(Debt to Income ratio), more is charge off percentage. Thus dti could be DRIVING VARIABLE
 - Driving variables identified are term, int_rate, grade, home_ownership, annual_inc, purpose, dti.
+- From Multivariate analysis, we concluded that there is a significant positive correlation between loan amount and installment; comparable correlation between loan amount and annual income, term and interest rate, debt to income ratio and Number of open accounts. Number of public records does not have a correlation between any of the parameters.
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -68,7 +69,7 @@ We received a `loan.csv` dataset. It consist of `111` columns defining various a
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Contact
-Created by [Yatin-Gupta] and [] - feel free to contact us!
+Created by [Yatin-Gupta] and [tejasvadhyani] - feel free to contact us!
 
 
 <!-- Optional -->
