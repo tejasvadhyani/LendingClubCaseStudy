@@ -10,14 +10,14 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.<br/>
-This project aim is to assist bank in identifying high-risk applicants, optimizing loan offerings, and reducing overall portfolio risk.
-- What is the background of your project?<br/>
+- <b>Provide general information about your project here.</b><br/>
+This project's aim is to assist bank in identifying high-risk applicants, optimizing loan offerings, and reducing overall portfolio risk.
+- <b>What is the background of your project?</b><br/>
 LendingClub is a lending platform where individuals and institutions can lend money to borrowers. Like any financial institution, LendingClub faces the challenge of minimizing loan defaults while maximizing profitability. Understanding the factors that drive loan defaults is crucial for maintaining a healthy lending portfolio and ensuring the long-term sustainability of the business.
-- What is the business probem that your project is trying to solve?<br/>
+- <b>What is the business probem that your project is trying to solve?</b><br/>
 The primary business problem addressed in this study is the identification of patterns and variables that strongly indicate the likelihood of loan defaults.
-- What is the dataset that is being used?<br/>
-We received a `loan.csv` dataset. It consist of `111` columns defining various attributes related to bank customers who earlier applied for loan.
+- <b>What is the dataset that is being used?</b><br/>
+We received a `loan.csv` dataset. It consist of `111` columns defining various attributes related to the loan applications that were accepted by the bank.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
