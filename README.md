@@ -23,11 +23,11 @@ We received a `loan.csv` dataset. It consist of `111` columns defining various a
 
 ## Conclusions
 - From Univariate analysis of unordered categorical variables we concluded that every unordered categorical variable follows power distribution law. However, there are certain part of plot which looks outlawed but in general power distribution law is followed.
-- From Univariate analysis on ordered categorical variables, we concluded insights as follow: 
+- From Univariate analysis on ordered categorical variables, we concluded insights as follows: 
     - Maximum loans taken are of 3-year term. 
     - Maximum loans taken interest rate lies between 9% - 15%.
     - Most of the A or B-grade customers are granted loans. This indicates that bank want to take the lowest possible risk of default in granting loans.
-    -  It is observed that for few sub-grades, such as A4, B5 are granted more loans than A1 while A1 is considered as low-risk grade. The reason for it could be that bank received less applications from A1-grade customers.
+    -  It is observed that for few sub-grades, such as A4, B5 are granted more loans than A1 while A1 is considered as low-risk grade. The reason for this could be that the bank received less applications from A1-grade customers.
     - Bank is considering those customers more who has large employee length. 
     - With time loan applications are increasing. This could be due to various factors like economic conditions, bank policies, or changes in lending practices.
     - Most of the customers have a credit history between 1990 to 2010.
@@ -60,9 +60,9 @@ We received a `loan.csv` dataset. It consist of `111` columns defining various a
 ## Technologies Used
 - Python - version 3.11.7
 - Pandas - version 2.1.4
-- numpy - version 1.26.4
+- Numpy - version 1.26.4
 - matplotlib - version 3.8.0
-- seaborn - version 0.12.2
+- seaborn - version 0.13.2
 - Anaconda Navigator - version 2.5.2
 - Visual Studio Code - version 1.96.4
 
