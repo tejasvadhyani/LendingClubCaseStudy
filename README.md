@@ -43,14 +43,14 @@ We received a `loan.csv` dataset. It consist of `111` columns defining various a
     - Customers who are taking 5-year term loans are defaulting most. Thus `term` can be considered as DRIVING VARIABLE.
     - As interest rates are increasing, chances of default are also increasing. Loans at high interest rates are vulnerable to default. Thus `int_rate` can be considered as a DRIVING VARIABLE.
     - Apart from the very high funded loan amount, for other segments of funded loan amounts, charge-off percentage is approximately same. Even for very high funded loans as well percentage difference could be just because of Randomness. Thus funded_amnt or loan_amnt or funded_amnt_inv cannot be considered driving variables.
-    - Apart from the very high installment amount, for other segments of installment, charge-off percentage is approximately same. Even for very high installments as well percentage difference could be just because of Randomness. Thus installment cannot be considered a driving variable.
+    - Apart from the very high installment amount, for other segments of installment, charge-off percentage is approximately same. Even for very high installments as the percentage difference could be just because of Randomness. Thus installment cannot be considered a driving variable.
     - As the grade shifts from A to G, chances of default also increase. Loans to high-grade customers are risky. Thus `grade` can be considered as a DRIVING VARIABLE.
     - From the analysis of the Homeownership field(`home_ownership`), we can see that customers who have OTHER ownership are getting charged off mostly. After that RENT, OWN, and lastly MORTGAGE. MORTGAGE becomes further less risky if the asset is mortgaged with a bank. This column could be a DRIVING VARIABLE.
-    - Less-income customer loans are likely to charge off or default. As income is reduced charge-off percentage increases. This could be the DRIVING VARIABLE.
+    - Less-income customer loans are likely to charge off or default. As income is reduced, the charge-off percentage increases. This could be the DRIVING VARIABLE.
     - Although verified customers look more risky but we cannot consider it as a driving variable as there are chances that the system has more number of verified customer than not verified. The high no. of charged-off verified customers shows that the Lending Club needs to revisit the verification process.
     - Small business loans have a high tendency to get charged off, whereas Wedding loans have lowest tendency to get charged off. Thus `purpose` could be a DRIVING VARIABLE.
     - More `dti`(Debt to Income ratio), more is charge off percentage. Thus DTI could be DRIVING VARIABLE
-- Driving variables identified are term, int_rate, grade, home_ownership, annual_inc, purpose, dti.
+- Driving variables identified are term, int_rate, grade, home_ownership, annual_inc, purpose, dti, addr_state.
 - From Multivariate analysis, we concluded that there is a significant positive correlation between the loan amount and installment; the comparable correlation between the loan amount and annual income, term and interest rate, debt to income ratio, and Number of open accounts. The number of public records does not have a correlation between any of the parameters.
 
 
